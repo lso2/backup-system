@@ -1,0 +1,32 @@
+# Backup System Configuration (Example)
+# Copy to backup-settings.conf and customize
+# =================================
+
+# GitHub Settings
+GITHUB_USERNAME="your-github-username"
+SSH_KEY_NAME="id_rsa"  # or id_ed25519
+REPO_VISIBILITY="private"  # Options: "private" or "public"
+
+# Backup Components (true/false)
+ENABLE_GITHUB_UPLOAD="true"   # Upload to GitHub
+ENABLE_TGZ_CREATION="true"    # Create TGZ archives
+ENABLE_SESSION_BACKUP="true" # Session documentation backup
+
+# Claude Code / Atlas Integration (true/false)
+ENABLE_ATLAS_INTEGRATION="true"  # Update Atlas session files
+ATLAS_ROOT_DIR="$HOME/.claude/atlas"  # Atlas directory location
+
+# Backup Storage Locations
+TGZ_BACKUP_LOCATION="auto"  # "auto" = project-relative, or specify absolute path
+SESSION_BACKUP_LOCATION="auto"  # "auto" = atlas if enabled, or specify path
+
+# GitHub CLI Location (auto-detect or specify)
+GITHUB_CLI_PATH="auto"  # "auto" or absolute path like "/usr/bin/gh"
+
+# Project Detection
+PROJECT_CONFIG_DIR="$HOME/.backup-system/config"  # Where project configs are stored
+
+# Advanced Settings
+BACKUP_RETENTION_DAYS="30"  # How long to keep old backups
+CHECKSUM_ALGORITHM="md5"    # md5, sha256, or sha1
+DEFAULT_SEARCH_ORDER="GIT_PROJECT,NODEJS_PROJECT"  # Project type search order

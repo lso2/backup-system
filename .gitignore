@@ -1,0 +1,42 @@
+# Backup System gitignore
+
+# Local configuration files with sensitive data
+config/backup-settings.conf
+config/project-types.conf
+config/project-paths.conf
+config/atlas-mappings.conf
+
+# Backup files
+*.tgz
+*.tar.gz
+backups/
+.sessions/
+
+# Session files
+SESSION_*.md
+CURRENT_STATE.md
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+.backup-system.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/

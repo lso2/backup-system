@@ -1,0 +1,15 @@
+# Atlas Directory Mappings (Example)
+# Copy to atlas-mappings.conf and customize
+# Maps project directory names to Atlas directory names
+# Format: project_directory_name=atlas_directory_name
+#
+# This allows you to map complex project directory structures
+# to simple Atlas project names for organization.
+#
+# Examples:
+# my-website-v2=my-website
+# client-project-abc=client-project
+# legacy-system=legacy
+
+# Add your mappings below:
+# project-directory=atlas-name

@@ -1,0 +1,21 @@
+# Project Path Configuration (Example)
+# Copy to project-paths.conf and customize
+# Format: PROJECT_TYPE=base_path_pattern
+# Variables: $PROJECT_NAME will be replaced with actual project name
+
+# Common Project Types
+GIT_PROJECT="$HOME/projects/$PROJECT_NAME"
+NODEJS_PROJECT="$HOME/nodejs/$PROJECT_NAME"
+PYTHON_PROJECT="$HOME/python/$PROJECT_NAME"
+WEB_PROJECT="$HOME/web/$PROJECT_NAME"
+
+# WordPress Projects
+WORDPRESS_THEME="$HOME/wordpress/themes/$PROJECT_NAME"
+WORDPRESS_PLUGIN="$HOME/wordpress/plugins/$PROJECT_NAME"
+
+# Development Environments
+DOCKER_PROJECT="$HOME/docker/$PROJECT_NAME"
+VAGRANT_PROJECT="$HOME/vagrant/$PROJECT_NAME"
+
+# Default search order (when project type is unknown)
+DEFAULT_SEARCH_ORDER="GIT_PROJECT NODEJS_PROJECT PYTHON_PROJECT WEB_PROJECT WORDPRESS_THEME WORDPRESS_PLUGIN DOCKER_PROJECT"

@@ -1,0 +1,20 @@
+# Project Type Configuration (Example)
+# Copy to project-types.conf and customize
+# Maps project names to their types for explicit path resolution
+# Format: project_name=PROJECT_TYPE
+# 
+# PROJECT_TYPE must match a key from project-paths.conf
+# 
+# Examples:
+# my-website=WORDPRESS_THEME
+# my-plugin=WORDPRESS_PLUGIN
+# my-api=NODEJS_PROJECT
+# my-tool=PYTHON_PROJECT
+# my-app=GIT_PROJECT
+
+# Add your projects below:
+# project_name=PROJECT_TYPE
+
+# Example Projects
+# my-blog=WORDPRESS_THEME
+# my-portfolio=WEB_PROJECT
