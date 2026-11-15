@@ -213,16 +213,18 @@ GPLv3 License
 
 If this tool has made your development workflow smoother, consider supporting its continued development!
 
-**Buy me a coffee!**
+## Buy me a coffee
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://techreader.com/ko-fi)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://techreader.com/paypal)
+Every coffee ☕ helps fuel more features and improvements!
 
-**Why donate?**
-- ☕ Fuel more utility development
-- 🚀 Support new backup features and improvements  
-- 🐛 Faster bug fixes and updates
-- 📚 Better documentation and tutorials
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://plexpixel.com/donate)
+
+**Funding priorities**
+
+- Continued development
+- New signals and views
+- Faster fixes and updates
+- Better documentation
 
 **Even small contributions make a big difference!** Every coffee helps keep this project actively maintained and growing.
 
