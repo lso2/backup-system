@@ -9,13 +9,13 @@ A modular, cross-platform backup system for developers. Automatically backs up y
 
 ## Features
 
-- 🔄 **Git Backup**: Automatic commits and GitHub uploads
-- 📦 **TGZ Archives**: Compressed project backups with checksum verification
-- 📄 **Session Documentation**: Automatic capture of project state and development notes
-- 🎯 **Project Detection**: Smart discovery of projects across different environments
-- ⚙️ **Highly Configurable**: Enable/disable components as needed
-- 🌐 **Cross-Platform**: Works on Windows (WSL), macOS, and Linux
-- 🔧 **Claude Code Integration**: Optional integration with Claude Code/Atlas
+- **Git Backup**: Automatic commits and GitHub uploads
+- **TGZ Archives**: Compressed project backups with checksum verification
+- **Session Documentation**: Automatic capture of project state and development notes
+- **Project Detection**: Smart discovery of projects across different environments
+- **Highly Configurable**: Enable/disable components as needed
+- **Cross-Platform**: Works on Windows (WSL), macOS, and Linux
+- **Claude Code Integration**: Optional integration with Claude Code/Atlas
 
 ## Quick Start
 
